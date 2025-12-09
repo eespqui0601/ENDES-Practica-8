@@ -27,13 +27,16 @@ public class Multitasking {
 			int selection = keyboard.nextInt();
 			
 			if (selection == 1) {
-				
+				int total = num1 + num2;
+				System.out.println("El resultado es " + total);
 			}
 			else if (selection == 2) {
-				
+				int total = num1 - num2;
+				System.out.println("El resultado es " + total);
 			}
 			else if (selection == 3) {
-				
+				int total = num1 * num2;
+				System.out.println("El resultado es " + total);
 			}
 			else {
 				while (selection > 3) {
