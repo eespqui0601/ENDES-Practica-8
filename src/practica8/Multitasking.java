@@ -44,6 +44,7 @@ public class Multitasking {
 					selection = keyboard.nextInt();
 				}
 			}
+			System.out.println("Cálculo realizado con exito");
 		}
 		else {
 			while (n > 3) {
