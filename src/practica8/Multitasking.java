@@ -24,8 +24,7 @@ public class Multitasking {
 				System.out.println("error");
 				n = keyboard.nextInt();
 			}
-		}
-		
+		}	
 	}
 public static void main (String [] args) {
 	new Multitasking().multitasking();
