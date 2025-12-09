@@ -10,14 +10,37 @@ public class Multitasking {
 		System.out.printf("Introduzca: \n 1- Invertir palabra \n 2- Realizar dibujo \n 3- Hacer cálculo \n");
 		int n = keyboard.nextInt();
 		
-		if (n == 1) {
+		if (n == 1) { //Invertir palabra
 			
 		}
-		else if (n == 2) {
+		else if (n == 2) { //Realizar dibujo
 			
 		}
-		else if (n == 3) {
+		else if (n == 3) { //Hacer cálculo
+			System.out.println("Introduzca el primer número para la cuenta: ");
+			int num1 = keyboard.nextInt();
 			
+			System.out.println("Introduzca el segundo número para la cuenta: ");
+			int num2 = keyboard.nextInt();
+			
+			System.out.printf("Seleccione la cuenta a reallizar: \n 1- Suma \n 2- Resta \n 3- Multiplicación \n");
+			int selection = keyboard.nextInt();
+			
+			if (selection == 1) {
+				
+			}
+			else if (selection == 2) {
+				
+			}
+			else if (selection == 3) {
+				
+			}
+			else {
+				while (selection > 3) {
+					System.out.println("error");
+					selection = keyboard.nextInt();
+				}
+			}
 		}
 		else {
 			while (n > 3) {
