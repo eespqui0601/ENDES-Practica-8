@@ -1,0 +1,16 @@
+package ejercicios1_1TiposDeDatosPrimitivos;
+
+public class Ejercicio1 {
+
+	public void ejercicio1() {
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+
+		new Ejercicio1() .ejercicio1();
+	}
+
+}

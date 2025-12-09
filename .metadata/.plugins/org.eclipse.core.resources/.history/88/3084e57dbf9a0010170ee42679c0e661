@@ -1,0 +1,19 @@
+package ejercicios1_1TiposDeDatosPrimitivos;
+
+public class Ejercicio1 {
+
+	public void exercise1() {
+		
+		int i=40000;
+		long l=3900750360L;
+		byte b=120;
+		short s=25500;
+		
+	}
+	
+	public static void main(String[] args) {
+
+		new Ejercicio1() .exercise1();
+	}
+
+}
